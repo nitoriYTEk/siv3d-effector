@@ -88,7 +88,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Src\EmitPosition.cpp" />
+    <ClCompile Include="Src\Emitter.cpp" />
+    <ClCompile Include="Src\Main.cpp" />
+    <ClCompile Include="Src\Particle\Particle.cpp" />
+    <ClCompile Include="Src\Particle\ParticleMesh.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Engine\Splash.png" />
@@ -190,6 +194,15 @@
   </ItemGroup>
   <ItemGroup>
     <Font Include="Example\YomogiFont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\EmitPosition.h" />
+    <ClInclude Include="Src\Emitter.h" />
+    <ClInclude Include="Src\EmitterState.h" />
+    <ClInclude Include="Src\Particle\MeshState.h" />
+    <ClInclude Include="Src\Particle\Particle.h" />
+    <ClInclude Include="Src\Particle\ParticleMesh.h" />
+    <ClInclude Include="Src\Particle\ParticleState.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

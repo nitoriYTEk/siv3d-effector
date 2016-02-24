@@ -3,6 +3,8 @@
 
 [Ee]ngine/
 
+*.VC.opendb
+
 # User-specific files
 *.suo
 *.user
