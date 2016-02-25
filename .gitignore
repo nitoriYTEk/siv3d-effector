@@ -3,7 +3,7 @@
 
 [Ee]ngine/
 
-*.VC.opendb
+*.opendb
 
 # User-specific files
 *.suo
@@ -283,3 +283,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+*.opendb

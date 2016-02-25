@@ -2,7 +2,13 @@
 #include "EmitPosition.h"
 #include "Particle/Particle.h"
 
+vector<shared_ptr<const s3d::Texture>> textures;
+
 namespace effector {
+
+	void init() {
+		textures.push_back(make_shared<const s3d::Texture>(L"Assets/Particle.png", s3d::TextureDesc::For3D));
+	}
 
 	Emitter::Emitter(const EmitterState& estate, const ParticleState& pstate, const MeshState& mstate) {
 		this->pstate = pstate;

@@ -16,6 +16,8 @@ using namespace std;
 
 namespace effector {
 
+	void init();
+
 	class Particle;
 	class EmitPosition;
 
